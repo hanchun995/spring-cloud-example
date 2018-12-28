@@ -1,0 +1,23 @@
+server:
+  port: 6688 #服务端口
+
+spring: 
+  application:  
+    name: itcasst-microservice-config-server #指定服务名
+  cloud:  
+    config:
+      server:
+        git: #配置git仓库地址
+          uri: http://192.168.1.201/hanchun/itcast-config-server.git
+          username: 354253175@qq.com
+          password: 123456qqq
+          
+eureka: 
+  client:
+    registerWithEureka: true #是否将自己注册到Eureka服务中，默认为true
+    fetchRegistry: true #是否从Eureka中获取注册信息，默认为true
+    serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址
+      defaultZone: http://itcast:itcast123@127.0.0.1:6868/eureka/
+  instance: 
+    prefer-ip-address: true #将自己的ip地址注册到Eureka服务中
+    ipAddress: 127.0.0.1

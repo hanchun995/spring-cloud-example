@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: itcast-microservice-eureka
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: lenovo
+Implementation-Vendor-Id: cn.itcast.microservice.eureka
+Build-Jdk: 1.8.0_101
+Implementation-URL: http://projects.spring.io/spring-boot/itcast-micro
+ service-eureka/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
